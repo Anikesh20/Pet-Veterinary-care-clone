@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+.parallax {
+    background-image: url('Images/dog2.jpeg');
+    height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -43px;
+}
+.parallax1 {
+    background-image: url('Images/lizard.jpeg');
+    height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -43px;
+}
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+.image-container {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.image-container img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.text-overlay {   
+    color: #00d7ff; 
+    font-size: 40px;
+    padding-top: 2em;
+    padding-right: 2em;
+    font-weight: bold;
+    text-shadow: 2px 2px  rgba(247, 242, 242, 0.7); 
+    text-align:right;
+}
+
+
+/* Header */
+.header {
+    background: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    
+    color: #17abbb;
+    font-size: 1.5em;
+    text-shadow:2px 2px 2px  #12a3bd;
+    font-weight:bolder;
+    flex-grow: 1;
+}
+
+.navbar {
+    display: flex;
+    gap: 2rem;
+    justify-content: flex-end; 
+    align-items: center; 
+}
+
+.navbar a {
+    color: #12a4be;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.navbar a.active, .navbar a:hover {
+    text-decoration: underline;
+}
+/* Why Us Section */
+.why-us {
+    padding: 40px 20px;
+    background: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.why-us-content {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.why-us-text {
+    flex: 1;
+    padding: 20px;
+}
+
+.why-us-text h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.why-us-text p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.why-us-text ul {
+    list-style: none;
+    padding: 0;
+}
+
+.why-us-text ul li {
+    font-size: 1rem;
+    color: #333;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+.why-us-image {
+    flex: 1;
+    text-align: center;
+}
+
+.why-us-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+/* About Us Section */
+.about-us {
+    padding: 3rem 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+}
+
+.container img {
+    max-width: 45%;
+    border-radius: 10px;
+}
+
+.text {
+    max-width: 50%;
+    flex-grow: 1;
+}
+
+.center-container h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+
+h1 {
+    font-weight: bold;
+    color: #333;
+}
+
+.text p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+
+/* Footer */
+footer {
+    background: #02c9b8;
+    color: #fff;
+    text-align: center;
+
+    padding: 2rem 0;
+    margin-top: 2rem;
+}
+.footer-logo h1{
+    color:#f9f9f9;
+
+}
+.footer a {
+    color: #1f1fbe;
+    text-decoration: none;
+}
+
+.footer-bottom h3{
+    padding: 1em;
+    text-align: center;
+    color: #f7f2f2;
+    font-size: 1em;
+}
+
+/*--Contact us page*/
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.left-section, .right-section {
+    width: 45%;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+
+
+form {
+    margin-top: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333333;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #20b0b8;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #20b0b8
+}
