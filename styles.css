@@ -27,6 +27,15 @@ body {
     background-size: cover;
     margin-top: -43px;
 }
+.parallax2 {
+    background-image: url('Images/catinhand.jpeg');
+    height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -43px;
+}
 /* Container */
 .container {
     width: 90%;
@@ -176,7 +185,7 @@ body {
     border-radius: 10px;
 }
 
-.text {
+.us {
     max-width: 50%;
     flex-grow: 1;
 }
@@ -192,7 +201,7 @@ h1 {
     color: #333;
 }
 
-.text p {
+.us p {
     font-size: 1rem;
     line-height: 1.6;
     color: #555;
@@ -338,4 +347,72 @@ button:hover {
     height: auto;
     margin: 2em 0;
     border-radius: 8px;
+}
+
+/*-- services section -- */
+
+/* Services List Section */
+
+.offeringss {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    margin: 2em auto;
+}
+
+.offering {
+    flex: 1 1 30%; /* Three items per row by default */
+    background-color: #fff;
+    margin: 1em;
+    padding: 1.5em;
+    box-shadow: 0 0 10px rgba(11, 11, 11, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.offering h3 {
+    color: rgb(7, 214, 214);
+    margin-bottom: 0.5em;
+    font-size: 2em;
+}
+
+.offering p {
+    margin-bottom: 1em;
+    color: #333;
+    font-size: 1.3em;
+}
+
+.offering:hover {
+    transform: scale(1);
+}
+.button-primary {
+    padding: 10px 20px;
+    background-color: #20b0b8;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button-primary:hover {
+    background-color: #20b0b8
+}
+
+.appointment-callout {
+    text-align: center;
+    padding: 2em;
+    background-color: #fef8f8;
+    margin: 1em auto;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+    width: 85%;
+}
+
+.appointment-callout h2 {
+    color: #333;
+    margin-bottom: 1em;
+}
+
+.appointment-callout p {
+    margin-bottom: 1em;
 }
