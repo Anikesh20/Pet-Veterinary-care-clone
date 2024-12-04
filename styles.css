@@ -52,7 +52,7 @@ body {
     padding-top: 2em;
     padding-right: 2em;
     font-weight: bold;
-    text-shadow: 2px 2px  rgba(247, 242, 242, 0.7); 
+    text-shadow: 2px 2px 2px rgba(247, 242, 242, 0.7); 
     text-align:right;
 }
 
@@ -276,4 +276,47 @@ button {
 
 button:hover {
     background-color: #20b0b8
+}
+
+
+/* Article Section */
+.article-full {
+    max-width: 1200px;
+    margin: 2em auto;
+    padding: 2em;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.article-full article {
+    margin-bottom: 2em;
+}
+
+.article-full h2 {
+    color: rgb(3, 170, 170);
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+.article-full ul {
+    list-style-type: disc;
+    margin-left: 2em;
+    font-size: 1.2em;
+    line-height: 1.8em;
+    color: #333;
+}
+
+.article-full p {
+    font-size: 1.2em;
+    line-height: 1.6em;
+    color: #333;
+    margin-bottom: 1.5em;
+}
+
+.article-image {
+    width: 100%;
+    height: auto;
+    margin: 2em 0;
+    border-radius: 8px;
 }
