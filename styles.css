@@ -280,7 +280,7 @@ button:hover {
 
 
 /* Article Section */
-.article-full {
+.Intro{
     max-width: 1200px;
     margin: 2em auto;
     padding: 2em;
@@ -289,17 +289,33 @@ button:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.article-full article {
+.Intro1 h1 {
+    background-color: #02c9b8;
+    color: #ffffff;
+    text-align: center;
+
+}
+.Intro1 p{
+    background-color: #02c9b8;
+    color: #ffffff;
+    text-align: center;
+
+}
+.Intro em {
+    font-weight: bold;
+}
+
+.Intro2 article {
     margin-bottom: 2em;
 }
 
-.article-full h2 {
+.Intro2 h2 {
     color: rgb(3, 170, 170);
     font-size: 2.5em;
     margin-bottom: 1em;
 }
 
-.article-full ul {
+.Intro2 ul {
     list-style-type: disc;
     margin-left: 2em;
     font-size: 1.2em;
@@ -307,14 +323,17 @@ button:hover {
     color: #333;
 }
 
-.article-full p {
+.Intro2 p {
     font-size: 1.2em;
     line-height: 1.6em;
     color: #333;
     margin-bottom: 1.5em;
 }
+.Intro2 em {
+    font-weight: bold;
+}
 
-.article-image {
+.images{
     width: 100%;
     height: auto;
     margin: 2em 0;
